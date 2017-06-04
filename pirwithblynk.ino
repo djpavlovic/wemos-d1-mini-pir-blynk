@@ -13,10 +13,6 @@ const char* pass = "pwd";
 #define pirPin 2 // Input for HC-S501
 int pirValue; // Place to store read PIR Value
 int sentNotification = false;
-//int motionStatus;                                           // cache current motion state
-//int motionPin = 2;                                          // pin used to read the PIR sensor
-//int ledPin = BUILTIN_LED;                                             // pin used to show the motion status
-
 
 
 // You should get Auth Token in the Blynk App.
